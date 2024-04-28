@@ -1,0 +1,69 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:  "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/24701-nature-natural-beauty.jpg/800px-24701-nature-natural-beauty.jpg?20160607144903);
+min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*PHPJlMSTushbEDxJ4nAZ0Q.jpeg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(http://7-themes.com/data_images/out/43/6917232-beauty-of-nature.jpg);
+min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align:center ;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textBg{
+    background: #313534;
+    color: #fff;
+    padding:20px ;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color:#f4f4f4 ;
+    color:#666;
+
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+
+
+}
